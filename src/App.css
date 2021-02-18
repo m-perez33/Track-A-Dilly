@@ -1,3 +1,131 @@
+html,
+body {
+  height: 100%;
+}
+
+.header {
+  background: #b2dfdb;
+  height: 300px;
+}
+
+.progress-bar {
+  position: relative;
+  height: 40px;
+  width: 480px;
+  border-radius: 50px;
+  border: 1px solid #333;
+}
+.filler {
+  background: #1da598;
+  height: 100%;
+  border-radius: inherit;
+  animation-name: fill;
+  animation-duration: 2s;
+  animation-iteration-count: 1;
+  transition: width 2s ease in;
+}
+
+@keyframes fill {
+  0% {
+    width: 5%;
+  }
+
+  100% {
+  }
+}
+
+body {
+  background: #b2dfdb;
+  justify-content: center;
+  align-items: center;
+  font-family: Helvetica Neue;
+}
+
+.center{
+  text-align: center;
+    margin: auto;
+
+}
+
+h1 {
+  font-size: 2em;
+  color: #1a237e;
+  display: inline-block;
+  font-family: Inconsolata, monospace;
+}
+
+h2 {
+  font-size: 1em;
+  color: #1a237e;
+  display: inline-block;
+  font-family: Inconsolata, monospace;
+}
+
+.delete {
+    padding:10px;
+  margin-bottom: 1em;
+  height:100px;
+  text-align: left;
+  color: #1a237e;
+  background-color: #eeeeee;
+  cursor: pointer;
+}
+.delete:hover {
+  color: #aaa;
+}
+
+.productname {
+  background-color: #eeeeee;
+  float: left;
+  width: 200px;
+  height: 80px;
+  padding: 10px;
+  border-radius: 0%;
+}
+
+.pbcomponent {
+  background-color: #eeeeee;
+  float: right;
+  width: 500px;
+  height: 80px;
+  padding: 10px;
+  border-radius: 0%;
+}
+
+input {
+  height: 50px;
+  width: 350px;
+}
+.container2 {
+  height: 50px;
+  display: flex;
+  flex-direction: row;
+}
+
+.container {
+  background-color: #bbdefb;
+  float: center;
+  width: 700px;
+  padding: 0px;
+  border-radius: 0%;
+  text-align: center;
+  border-color: black;
+}
+.containerflex {
+    margin: auto;
+  height: 50px;
+  display: flex;
+  flex-direction: row;
+}
+
+::placeholder { /* Chrome, Firefox, Opera, Safari 10.1+ */
+  color: red;
+  opacity: 1; /* Firefox */
+}
+input:focus::placeholder {
+  color: transparent;
+}
+
 .App {
   text-align: center;
 }
