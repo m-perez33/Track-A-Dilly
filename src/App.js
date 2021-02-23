@@ -228,7 +228,7 @@ loadColor2=(color)=>{
               <div className=" f7 black pt3 mt3">Add a Project:{"\u00a0"}{"\u00a0"}{"\u00a0"}</div>
 
                   <div className="measure">
-                    <label htmlFor="name" className="f6 db tl">Project Name </label>
+                    <label htmlFor="name" className="f8 db tl">Project Name </label>
                     <input 
                       id="name" 
                       className="input-reset ba b--black-20 mb2 db w-100 inputentry"
@@ -240,7 +240,7 @@ loadColor2=(color)=>{
                   </div>
 
                   <div className="measure">
-                    <label htmlFor="name" className="f6 db tl"># of Assets Needed </label>
+                    <label htmlFor="name" className="f8 db tl"># of Assets Needed </label>
                     <input 
                       id="name2"
                       className="input-reset ba b--black-20  mb2 db w-100 inputentry" 
@@ -252,7 +252,7 @@ loadColor2=(color)=>{
                     </div>
 
                    <div className="measure">
-                    <label htmlFor="name" className="f6 db tl">Due Date </label>
+                    <label htmlFor="name" className="f8 db tl">Due Date </label>
                     <input 
                       id="name3" 
                       className="input-reset ba b--black-20   db w-100 inputentrydate" 
