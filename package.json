@@ -14,7 +14,7 @@
     "styled-components": "^5.2.0",
     "tachyons": "^4.12.0"
   },
-"scripts": {
+  "scripts": {
     "dev": "react-scripts start",
     "start": "serve -s build",
     "build": "react-scripts build",
