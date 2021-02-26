@@ -240,7 +240,7 @@ loadColor2=(color)=>{
                   </div>
 
                   <div className="measure">
-                    <label htmlFor="name" className="f7 db tl"># of Assets</label>
+                    <label htmlFor="name" className="f7 db tl">Goal #</label>
                     <input 
                       id="name2"
                       className="input-reset ba b--black-20  mb2 db w-100 inputentry" 

@@ -227,7 +227,7 @@ class ProjectBar extends React.Component {
                  <div className="f6 black pt2 pb2 ">
                     <span>
                       <UncontrolledInput
-                          header={"Need:"}
+                          header={"Goal:"}
                           asset={this.state.assetCurrent}
                           id={this.props.id}
                           type="text"
