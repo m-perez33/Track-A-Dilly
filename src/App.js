@@ -220,12 +220,12 @@ loadColor2=(color)=>{
         <div className="pl3 mt3">
                           <div className='f6 black'>{"Hello " + this.state.user.name.charAt(0).toUpperCase() + this.state.user.name.slice(1) + "!"}</div>
 
-         <div className='f7 black  pa2'>Project Tracker</div>
+         <div className='f7 black  pa2'>Goal Tracker</div>
 
 
         </div>
           <div className="containerflex mt3">
-              <div className=" f7 black pt3 mt3">Add a Project:{"\u00a0"}{"\u00a0"}{"\u00a0"}</div>
+              <div className=" f7 black pt3 mt3">Add a Goal:{"\u00a0"}{"\u00a0"}{"\u00a0"}</div>
 
                   <div className="measure">
                     <label htmlFor="name" className="f7 db tl">Project Name </label>
