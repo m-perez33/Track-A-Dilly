@@ -212,6 +212,7 @@ loadColor2=(color)=>{
  
   render() {
  console.log(this.state.user)
+ console.log(this.state.projects)
     return (
 
       <div className="center">
