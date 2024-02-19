@@ -34,7 +34,7 @@ Login with guest credentials
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
-To clone and run locally:git st
+To clone and run locally:
  ```bash
    git clone https://github.com/m-perez33/Track-A-Dilly.git
   ```
