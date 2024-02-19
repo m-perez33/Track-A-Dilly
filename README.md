@@ -29,8 +29,8 @@ Check it out!
 The app is live here! [Track-A-Dilly](https://track-a-dilly-773c65354f88.herokuapp.com/).
 Login with guest credentials
 
-Login: GoalsGuest@gmail.com
-Password Goalsguest100
+- Login: GoalsGuest@gmail.com
+- Password Goalsguest100
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
