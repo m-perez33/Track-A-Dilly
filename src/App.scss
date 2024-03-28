@@ -142,7 +142,7 @@ h2 {
   width: 100px;
   font-size: 13px;
   padding :2px;
- // font-color:gray;
+ 
 
 }
 
@@ -150,7 +150,7 @@ h2 {
   height: 28px;
 
   font-size: 13px;
-  //ont-color:white;
+ 
     
 
 }
@@ -192,10 +192,9 @@ h2 {
 .dateclass.placeholderclass::before{
     //width:80%;
   content:attr(placeholder);
-  background-color:#FFFFFF;
   height: 15px;
   width: 65%;
-  font-size: 13px;
+  font-size: 16px;
   padding-top: 3px 
 }
 

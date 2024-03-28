@@ -1,7 +1,7 @@
 import React from 'react';
 
 
-//component for top right nav. signing/signout route changes
+//component for top right of navbar. signing/signout route changes
 
 const Navigation =({onRouteChange, isSignedIn, userName})=>{
         

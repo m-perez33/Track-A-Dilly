@@ -347,22 +347,17 @@ class ParentComponent extends React.Component {
 
             </div>
             :
-            <><div className="pt5">
+            <div className="pt5">
               <Register
-                /* data to send for register component*/
+              /* data to send for register component*/
                 loadUser={this.loadUser}
                 onRouteChange={this.onRouteChange}
                 clearUser={this.clearUser}
                 loadUserProjects={this.loadUserProjects} />
             </div>
-                <section>hi</section>
-              </>
           )
-          
         }
-        
       </div>
-      
     );
   }
 }
